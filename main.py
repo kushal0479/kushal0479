@@ -58,7 +58,6 @@ class ATM:
         return True, f"Successfully withdrew ${amount:,.2f}."
 
     def get_statement(self) -> list[dict]:
-        """Returns full list of logged transactions."""
         return self.transaction_history
 
 
